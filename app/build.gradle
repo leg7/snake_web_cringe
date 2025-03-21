@@ -49,3 +49,19 @@ tasks.named('test') {
     // Use JUnit Platform for unit tests.
     useJUnitPlatform()
 }
+
+tasks.register("deploy") {
+    dependsOn tasks.war
+
+    def tomcatWebAppsDir = System.env.TOMCAT_WEBAPP_DIR
+
+    doLast {
+        delete(fileTree(tomcatWebAppsDir).matching {
+            include "${project.name}*"
+        })
+        copy {
+            from tasks.war.archiveFile
+            into tomcatWebAppsDir
+        }
+    }
+}

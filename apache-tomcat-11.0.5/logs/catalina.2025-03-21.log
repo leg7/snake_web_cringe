@@ -1,0 +1,816 @@
+21-Mar-2025 10:00:23.628 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/11.0.5
+21-Mar-2025 10:00:23.637 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Feb 28 2025 15:54:41 UTC
+21-Mar-2025 10:00:23.638 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 11.0.5.0
+21-Mar-2025 10:00:23.638 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+21-Mar-2025 10:00:23.638 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.6.76
+21-Mar-2025 10:00:23.638 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+21-Mar-2025 10:00:23.639 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /nix/store/kwlr33x09cp7bdah33ih3z6yal2vz8g8-openjdk-23.0.2+7/lib/openjdk
+21-Mar-2025 10:00:23.639 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           23.0.2+7
+21-Mar-2025 10:00:23.639 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+21-Mar-2025 10:00:23.639 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /persistent/home/user/documents/education/universite_angers/mi/m1/blocs/web-avance/projet/tomcat/apache-tomcat-11.0.5
+21-Mar-2025 10:00:23.640 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /persistent/home/user/documents/education/universite_angers/mi/m1/blocs/web-avance/projet/tomcat/apache-tomcat-11.0.5
+21-Mar-2025 10:00:23.667 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/persistent/home/user/documents/education/universite_angers/mi/m1/blocs/web-avance/projet/tomcat/apache-tomcat-11.0.5/conf/logging.properties
+21-Mar-2025 10:00:23.667 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+21-Mar-2025 10:00:23.668 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+21-Mar-2025 10:00:23.668 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+21-Mar-2025 10:00:23.668 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+21-Mar-2025 10:00:23.668 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang.reflect=ALL-UNNAMED
+21-Mar-2025 10:00:23.669 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+21-Mar-2025 10:00:23.669 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+21-Mar-2025 10:00:23.669 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+21-Mar-2025 10:00:23.669 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+21-Mar-2025 10:00:23.670 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --enable-native-access=ALL-UNNAMED
+21-Mar-2025 10:00:23.670 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/persistent/home/user/documents/education/universite_angers/mi/m1/blocs/web-avance/projet/tomcat/apache-tomcat-11.0.5
+21-Mar-2025 10:00:23.670 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/persistent/home/user/documents/education/universite_angers/mi/m1/blocs/web-avance/projet/tomcat/apache-tomcat-11.0.5
+21-Mar-2025 10:00:23.670 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/persistent/home/user/documents/education/universite_angers/mi/m1/blocs/web-avance/projet/tomcat/apache-tomcat-11.0.5/temp
+21-Mar-2025 10:00:23.671 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.prefs.userRoot=/persistent/home/user/.config/java
+21-Mar-2025 10:00:23.674 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/nix/store/kzjz42h59m6rpr7j2x78bxkz8a2snc75-pipewire-1.2.7-jack/lib:/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib]
+21-Mar-2025 10:00:24.480 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+21-Mar-2025 10:00:24.523 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1195] milliseconds
+21-Mar-2025 10:00:24.582 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+21-Mar-2025 10:00:24.583 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/11.0.5]
+21-Mar-2025 10:00:24.596 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/persistent/home/user/documents/education/universite_angers/mi/m1/blocs/web-avance/projet/tomcat/apache-tomcat-11.0.5/webapps/examples]
+21-Mar-2025 10:00:25.512 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/persistent/home/user/documents/education/universite_angers/mi/m1/blocs/web-avance/projet/tomcat/apache-tomcat-11.0.5/webapps/examples] has finished in [917] ms
+21-Mar-2025 10:00:25.513 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/persistent/home/user/documents/education/universite_angers/mi/m1/blocs/web-avance/projet/tomcat/apache-tomcat-11.0.5/webapps/ROOT]
+21-Mar-2025 10:00:25.542 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/persistent/home/user/documents/education/universite_angers/mi/m1/blocs/web-avance/projet/tomcat/apache-tomcat-11.0.5/webapps/ROOT] has finished in [28] ms
+21-Mar-2025 10:00:25.542 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/persistent/home/user/documents/education/universite_angers/mi/m1/blocs/web-avance/projet/tomcat/apache-tomcat-11.0.5/webapps/manager]
+21-Mar-2025 10:00:25.579 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/persistent/home/user/documents/education/universite_angers/mi/m1/blocs/web-avance/projet/tomcat/apache-tomcat-11.0.5/webapps/manager] has finished in [36] ms
+21-Mar-2025 10:00:25.579 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/persistent/home/user/documents/education/universite_angers/mi/m1/blocs/web-avance/projet/tomcat/apache-tomcat-11.0.5/webapps/docs]
+21-Mar-2025 10:00:25.604 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/persistent/home/user/documents/education/universite_angers/mi/m1/blocs/web-avance/projet/tomcat/apache-tomcat-11.0.5/webapps/docs] has finished in [25] ms
+21-Mar-2025 10:00:25.605 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/persistent/home/user/documents/education/universite_angers/mi/m1/blocs/web-avance/projet/tomcat/apache-tomcat-11.0.5/webapps/host-manager]
+21-Mar-2025 10:00:25.633 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/persistent/home/user/documents/education/universite_angers/mi/m1/blocs/web-avance/projet/tomcat/apache-tomcat-11.0.5/webapps/host-manager] has finished in [28] ms
+21-Mar-2025 10:00:25.638 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+21-Mar-2025 10:00:25.652 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1127] milliseconds
+21-Mar-2025 10:04:05.732 INFO [Catalina-utility-1] org.apache.catalina.users.MemoryUserDatabase.backgroundProcess Reloading memory user database [UserDatabase] from updated source [file:/persistent/home/user/documents/education/universite_angers/mi/m1/blocs/web-avance/projet/tomcat/apache-tomcat-11.0.5/conf/tomcat-users.xml]
+21-Mar-2025 10:04:05.790 SEVERE [Catalina-utility-1] org.apache.tomcat.util.digester.Digester.fatalError Parse fatal error at line [39] column [7]
+	org.xml.sax.SAXParseException; lineNumber: 39; columnNumber: 7; The string "--" is not permitted within comments.
+		at java.xml/com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:204)
+		at java.xml/com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:178)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:400)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:327)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1465)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLScanner.scanComment(XMLScanner.java:818)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanComment(XMLDocumentFragmentScannerImpl.java:1088)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2923)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:635)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:551)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:890)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:826)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:134)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1225)
+		at java.xml/com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:643)
+		at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1546)
+		at org.apache.catalina.users.MemoryUserDatabase.open(MemoryUserDatabase.java:376)
+		at org.apache.catalina.users.MemoryUserDatabase.backgroundProcess(MemoryUserDatabase.java:630)
+		at org.apache.catalina.realm.UserDatabaseRealm.backgroundProcess(UserDatabaseRealm.java:143)
+		at org.apache.catalina.realm.CombinedRealm.backgroundProcess(CombinedRealm.java:247)
+		at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:926)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1139)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1121)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+		at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:358)
+		at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:1575)
+21-Mar-2025 10:04:05.792 SEVERE [Catalina-utility-1] org.apache.catalina.users.MemoryUserDatabase.backgroundProcess Error reloading memory user database [UserDatabase] from updated source [file:/persistent/home/user/documents/education/universite_angers/mi/m1/blocs/web-avance/projet/tomcat/apache-tomcat-11.0.5/conf/tomcat-users.xml]
+	org.xml.sax.SAXParseException; lineNumber: 39; columnNumber: 7; The string "--" is not permitted within comments.
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1252)
+		at java.xml/com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:643)
+		at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1546)
+		at org.apache.catalina.users.MemoryUserDatabase.open(MemoryUserDatabase.java:376)
+		at org.apache.catalina.users.MemoryUserDatabase.backgroundProcess(MemoryUserDatabase.java:630)
+		at org.apache.catalina.realm.UserDatabaseRealm.backgroundProcess(UserDatabaseRealm.java:143)
+		at org.apache.catalina.realm.CombinedRealm.backgroundProcess(CombinedRealm.java:247)
+		at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:926)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1139)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1121)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+		at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:358)
+		at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:1575)
+21-Mar-2025 10:04:15.796 INFO [Catalina-utility-1] org.apache.catalina.users.MemoryUserDatabase.backgroundProcess Reloading memory user database [UserDatabase] from updated source [file:/persistent/home/user/documents/education/universite_angers/mi/m1/blocs/web-avance/projet/tomcat/apache-tomcat-11.0.5/conf/tomcat-users.xml]
+21-Mar-2025 10:04:15.802 SEVERE [Catalina-utility-1] org.apache.tomcat.util.digester.Digester.fatalError Parse fatal error at line [39] column [7]
+	org.xml.sax.SAXParseException; lineNumber: 39; columnNumber: 7; The string "--" is not permitted within comments.
+		at java.xml/com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:204)
+		at java.xml/com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:178)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:400)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:327)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1465)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLScanner.scanComment(XMLScanner.java:818)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanComment(XMLDocumentFragmentScannerImpl.java:1088)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2923)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:635)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:551)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:890)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:826)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:134)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1225)
+		at java.xml/com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:643)
+		at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1546)
+		at org.apache.catalina.users.MemoryUserDatabase.open(MemoryUserDatabase.java:376)
+		at org.apache.catalina.users.MemoryUserDatabase.backgroundProcess(MemoryUserDatabase.java:630)
+		at org.apache.catalina.realm.UserDatabaseRealm.backgroundProcess(UserDatabaseRealm.java:143)
+		at org.apache.catalina.realm.CombinedRealm.backgroundProcess(CombinedRealm.java:247)
+		at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:926)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1139)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1121)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+		at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:358)
+		at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:1575)
+21-Mar-2025 10:04:15.804 SEVERE [Catalina-utility-1] org.apache.catalina.users.MemoryUserDatabase.backgroundProcess Error reloading memory user database [UserDatabase] from updated source [file:/persistent/home/user/documents/education/universite_angers/mi/m1/blocs/web-avance/projet/tomcat/apache-tomcat-11.0.5/conf/tomcat-users.xml]
+	org.xml.sax.SAXParseException; lineNumber: 39; columnNumber: 7; The string "--" is not permitted within comments.
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1252)
+		at java.xml/com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:643)
+		at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1546)
+		at org.apache.catalina.users.MemoryUserDatabase.open(MemoryUserDatabase.java:376)
+		at org.apache.catalina.users.MemoryUserDatabase.backgroundProcess(MemoryUserDatabase.java:630)
+		at org.apache.catalina.realm.UserDatabaseRealm.backgroundProcess(UserDatabaseRealm.java:143)
+		at org.apache.catalina.realm.CombinedRealm.backgroundProcess(CombinedRealm.java:247)
+		at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:926)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1139)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1121)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+		at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:358)
+		at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:1575)
+21-Mar-2025 10:04:25.810 INFO [Catalina-utility-1] org.apache.catalina.users.MemoryUserDatabase.backgroundProcess Reloading memory user database [UserDatabase] from updated source [file:/persistent/home/user/documents/education/universite_angers/mi/m1/blocs/web-avance/projet/tomcat/apache-tomcat-11.0.5/conf/tomcat-users.xml]
+21-Mar-2025 10:04:36.552 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+21-Mar-2025 10:04:36.553 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+21-Mar-2025 10:04:36.806 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+21-Mar-2025 10:04:36.891 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+21-Mar-2025 10:04:37.492 WARNING [main] org.apache.tomcat.util.net.Acceptor.stopMillis The acceptor thread [http-nio-8080-Acceptor] did not stop cleanly
+21-Mar-2025 10:04:37.502 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+21-Mar-2025 10:04:39.084 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/11.0.5
+21-Mar-2025 10:04:39.091 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Feb 28 2025 15:54:41 UTC
+21-Mar-2025 10:04:39.091 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 11.0.5.0
+21-Mar-2025 10:04:39.091 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+21-Mar-2025 10:04:39.092 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.6.76
+21-Mar-2025 10:04:39.092 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+21-Mar-2025 10:04:39.092 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /nix/store/kwlr33x09cp7bdah33ih3z6yal2vz8g8-openjdk-23.0.2+7/lib/openjdk
+21-Mar-2025 10:04:39.093 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           23.0.2+7
+21-Mar-2025 10:04:39.093 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+21-Mar-2025 10:04:39.093 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /persistent/home/user/documents/education/universite_angers/mi/m1/blocs/web-avance/projet/tomcat/apache-tomcat-11.0.5
+21-Mar-2025 10:04:39.094 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /persistent/home/user/documents/education/universite_angers/mi/m1/blocs/web-avance/projet/tomcat/apache-tomcat-11.0.5
+21-Mar-2025 10:04:39.113 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/persistent/home/user/documents/education/universite_angers/mi/m1/blocs/web-avance/projet/tomcat/apache-tomcat-11.0.5/conf/logging.properties
+21-Mar-2025 10:04:39.114 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+21-Mar-2025 10:04:39.114 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+21-Mar-2025 10:04:39.115 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+21-Mar-2025 10:04:39.115 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+21-Mar-2025 10:04:39.115 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang.reflect=ALL-UNNAMED
+21-Mar-2025 10:04:39.116 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+21-Mar-2025 10:04:39.116 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+21-Mar-2025 10:04:39.116 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+21-Mar-2025 10:04:39.117 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+21-Mar-2025 10:04:39.117 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --enable-native-access=ALL-UNNAMED
+21-Mar-2025 10:04:39.117 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/persistent/home/user/documents/education/universite_angers/mi/m1/blocs/web-avance/projet/tomcat/apache-tomcat-11.0.5
+21-Mar-2025 10:04:39.118 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/persistent/home/user/documents/education/universite_angers/mi/m1/blocs/web-avance/projet/tomcat/apache-tomcat-11.0.5
+21-Mar-2025 10:04:39.118 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/persistent/home/user/documents/education/universite_angers/mi/m1/blocs/web-avance/projet/tomcat/apache-tomcat-11.0.5/temp
+21-Mar-2025 10:04:39.118 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.prefs.userRoot=/persistent/home/user/.config/java
+21-Mar-2025 10:04:39.122 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/nix/store/kzjz42h59m6rpr7j2x78bxkz8a2snc75-pipewire-1.2.7-jack/lib:/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib]
+21-Mar-2025 10:04:39.683 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+21-Mar-2025 10:04:39.719 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [966] milliseconds
+21-Mar-2025 10:04:39.784 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+21-Mar-2025 10:04:39.784 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/11.0.5]
+21-Mar-2025 10:04:39.799 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/persistent/home/user/documents/education/universite_angers/mi/m1/blocs/web-avance/projet/tomcat/apache-tomcat-11.0.5/webapps/examples]
+21-Mar-2025 10:04:40.771 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/persistent/home/user/documents/education/universite_angers/mi/m1/blocs/web-avance/projet/tomcat/apache-tomcat-11.0.5/webapps/examples] has finished in [971] ms
+21-Mar-2025 10:04:40.771 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/persistent/home/user/documents/education/universite_angers/mi/m1/blocs/web-avance/projet/tomcat/apache-tomcat-11.0.5/webapps/ROOT]
+21-Mar-2025 10:04:40.815 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/persistent/home/user/documents/education/universite_angers/mi/m1/blocs/web-avance/projet/tomcat/apache-tomcat-11.0.5/webapps/ROOT] has finished in [44] ms
+21-Mar-2025 10:04:40.816 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/persistent/home/user/documents/education/universite_angers/mi/m1/blocs/web-avance/projet/tomcat/apache-tomcat-11.0.5/webapps/manager]
+21-Mar-2025 10:04:40.856 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/persistent/home/user/documents/education/universite_angers/mi/m1/blocs/web-avance/projet/tomcat/apache-tomcat-11.0.5/webapps/manager] has finished in [39] ms
+21-Mar-2025 10:04:40.856 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/persistent/home/user/documents/education/universite_angers/mi/m1/blocs/web-avance/projet/tomcat/apache-tomcat-11.0.5/webapps/docs]
+21-Mar-2025 10:04:40.886 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/persistent/home/user/documents/education/universite_angers/mi/m1/blocs/web-avance/projet/tomcat/apache-tomcat-11.0.5/webapps/docs] has finished in [30] ms
+21-Mar-2025 10:04:40.886 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/persistent/home/user/documents/education/universite_angers/mi/m1/blocs/web-avance/projet/tomcat/apache-tomcat-11.0.5/webapps/host-manager]
+21-Mar-2025 10:04:40.918 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/persistent/home/user/documents/education/universite_angers/mi/m1/blocs/web-avance/projet/tomcat/apache-tomcat-11.0.5/webapps/host-manager] has finished in [32] ms
+21-Mar-2025 10:04:40.923 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+21-Mar-2025 10:04:40.941 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1220] milliseconds
+21-Mar-2025 10:17:11.241 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/persistent/home/user/documents/education/universite_angers/mi/m1/blocs/web-avance/projet/tomcat/apache-tomcat-11.0.5/webapps/app.war]
+21-Mar-2025 10:17:12.786 INFO [Catalina-utility-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+21-Mar-2025 10:17:12.791 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/persistent/home/user/documents/education/universite_angers/mi/m1/blocs/web-avance/projet/tomcat/apache-tomcat-11.0.5/webapps/app.war] has finished in [1,550] ms
+21-Mar-2025 10:18:52.840 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/app]
+21-Mar-2025 10:18:52.923 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/persistent/home/user/documents/education/universite_angers/mi/m1/blocs/web-avance/projet/tomcat/apache-tomcat-11.0.5/webapps/app.war]
+21-Mar-2025 10:18:54.037 INFO [Catalina-utility-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+21-Mar-2025 10:18:54.040 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/persistent/home/user/documents/education/universite_angers/mi/m1/blocs/web-avance/projet/tomcat/apache-tomcat-11.0.5/webapps/app.war] has finished in [1,117] ms
+21-Mar-2025 10:20:14.068 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/app]
+21-Mar-2025 10:20:14.125 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/persistent/home/user/documents/education/universite_angers/mi/m1/blocs/web-avance/projet/tomcat/apache-tomcat-11.0.5/webapps/app.war]
+21-Mar-2025 10:20:15.220 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+21-Mar-2025 10:20:15.224 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/persistent/home/user/documents/education/universite_angers/mi/m1/blocs/web-avance/projet/tomcat/apache-tomcat-11.0.5/webapps/app.war] has finished in [1,099] ms
+21-Mar-2025 10:20:25.227 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/app]
+21-Mar-2025 10:20:25.281 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/persistent/home/user/documents/education/universite_angers/mi/m1/blocs/web-avance/projet/tomcat/apache-tomcat-11.0.5/webapps/app.war]
+21-Mar-2025 10:20:26.645 INFO [Catalina-utility-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+21-Mar-2025 10:20:26.649 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/persistent/home/user/documents/education/universite_angers/mi/m1/blocs/web-avance/projet/tomcat/apache-tomcat-11.0.5/webapps/app.war] has finished in [1,368] ms
+21-Mar-2025 10:21:46.672 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/app]
+21-Mar-2025 10:21:46.705 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/persistent/home/user/documents/education/universite_angers/mi/m1/blocs/web-avance/projet/tomcat/apache-tomcat-11.0.5/webapps/app.war]
+21-Mar-2025 10:21:48.184 INFO [Catalina-utility-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+21-Mar-2025 10:21:48.187 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/persistent/home/user/documents/education/universite_angers/mi/m1/blocs/web-avance/projet/tomcat/apache-tomcat-11.0.5/webapps/app.war] has finished in [1,481] ms
+21-Mar-2025 10:23:38.222 INFO [Catalina-utility-2] org.apache.catalina.users.MemoryUserDatabase.backgroundProcess Reloading memory user database [UserDatabase] from updated source [file:/persistent/home/user/documents/education/universite_angers/mi/m1/blocs/web-avance/projet/tomcat/apache-tomcat-11.0.5/conf/tomcat-users.xml]
+21-Mar-2025 10:23:38.223 SEVERE [Catalina-utility-2] org.apache.catalina.users.MemoryUserDatabase.open The specified user database [conf/tomcat-users.xml] could not be found
+21-Mar-2025 10:23:38.725 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.undeploy Undeploying context []
+21-Mar-2025 10:23:38.731 WARNING [Catalina-utility-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc JDBC driver de-registration failed for web application [ROOT]
+	java.lang.NullPointerException: Cannot invoke "java.io.InputStream.read(byte[], int, int)" because "is" is null
+		at org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc(WebappClassLoaderBase.java:1466)
+		at org.apache.catalina.loader.WebappClassLoaderBase.clearReferences(WebappClassLoaderBase.java:1415)
+		at org.apache.catalina.loader.WebappClassLoaderBase.stop(WebappClassLoaderBase.java:1352)
+		at org.apache.catalina.loader.WebappLoader.stopInternal(WebappLoader.java:370)
+		at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:235)
+		at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:4707)
+		at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:235)
+		at org.apache.catalina.core.ContainerBase.removeChild(ContainerBase.java:626)
+		at org.apache.catalina.startup.HostConfig.undeploy(HostConfig.java:1447)
+		at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1376)
+		at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1629)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:263)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:109)
+		at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:940)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1139)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1143)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1121)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+		at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:358)
+		at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:1575)
+21-Mar-2025 10:23:38.748 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/app]
+21-Mar-2025 10:23:38.753 WARNING [Catalina-utility-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc JDBC driver de-registration failed for web application [app]
+	java.lang.IllegalStateException: java.nio.file.NoSuchFileException: /persistent/home/user/documents/education/universite_angers/mi/m1/blocs/web-avance/projet/tomcat/apache-tomcat-11.0.5/webapps/app/WEB-INF/lib/jakarta.servlet-api-5.0.0.jar
+		at org.apache.catalina.webresources.AbstractSingleArchiveResourceSet.getArchiveEntry(AbstractSingleArchiveResourceSet.java:99)
+		at org.apache.catalina.webresources.AbstractArchiveResourceSet.getResource(AbstractArchiveResourceSet.java:250)
+		at org.apache.catalina.webresources.StandardRoot.getResourceInternal(StandardRoot.java:273)
+		at org.apache.catalina.webresources.Cache.getResource(Cache.java:64)
+		at org.apache.catalina.webresources.StandardRoot.getResource(StandardRoot.java:212)
+		at org.apache.catalina.webresources.StandardRoot.getClassLoaderResource(StandardRoot.java:221)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResourceAsStream(WebappClassLoaderBase.java:963)
+		at org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc(WebappClassLoaderBase.java:1465)
+		at org.apache.catalina.loader.WebappClassLoaderBase.clearReferences(WebappClassLoaderBase.java:1415)
+		at org.apache.catalina.loader.WebappClassLoaderBase.stop(WebappClassLoaderBase.java:1352)
+		at org.apache.catalina.loader.WebappLoader.stopInternal(WebappLoader.java:370)
+		at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:235)
+		at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:4707)
+		at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:235)
+		at org.apache.catalina.core.ContainerBase.removeChild(ContainerBase.java:626)
+		at org.apache.catalina.startup.HostConfig.undeploy(HostConfig.java:1447)
+		at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1376)
+		at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1629)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:263)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:109)
+		at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:940)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1139)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1143)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1121)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+		at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:358)
+		at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:1575)
+	Caused by: java.nio.file.NoSuchFileException: /persistent/home/user/documents/education/universite_angers/mi/m1/blocs/web-avance/projet/tomcat/apache-tomcat-11.0.5/webapps/app/WEB-INF/lib/jakarta.servlet-api-5.0.0.jar
+		at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92)
+		at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106)
+		at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111)
+		at java.base/sun.nio.fs.UnixFileAttributeViews$Basic.readAttributes(UnixFileAttributeViews.java:56)
+		at java.base/sun.nio.fs.UnixFileSystemProvider.readAttributes(UnixFileSystemProvider.java:172)
+		at java.base/sun.nio.fs.LinuxFileSystemProvider.readAttributes(LinuxFileSystemProvider.java:99)
+		at java.base/java.nio.file.Files.readAttributes(Files.java:1865)
+		at java.base/java.util.zip.ZipFile$Source.get(ZipFile.java:1512)
+		at java.base/java.util.zip.ZipFile$CleanableResource.<init>(ZipFile.java:744)
+		at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:254)
+		at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:181)
+		at java.base/java.util.jar.JarFile.<init>(JarFile.java:345)
+		at org.apache.catalina.webresources.AbstractArchiveResourceSet.openJarFile(AbstractArchiveResourceSet.java:299)
+		at org.apache.catalina.webresources.AbstractSingleArchiveResourceSet.getArchiveEntry(AbstractSingleArchiveResourceSet.java:95)
+		... 30 more
+21-Mar-2025 10:23:39.270 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/examples]
+21-Mar-2025 10:23:39.280 WARNING [Catalina-utility-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc JDBC driver de-registration failed for web application [examples]
+	java.lang.IllegalStateException: java.nio.file.NoSuchFileException: /persistent/home/user/documents/education/universite_angers/mi/m1/blocs/web-avance/projet/tomcat/apache-tomcat-11.0.5/webapps/examples/WEB-INF/lib/taglibs-standard-impl-1.2.5-migrated-0.0.1.jar
+		at org.apache.catalina.webresources.AbstractSingleArchiveResourceSet.getArchiveEntry(AbstractSingleArchiveResourceSet.java:99)
+		at org.apache.catalina.webresources.AbstractArchiveResourceSet.getResource(AbstractArchiveResourceSet.java:250)
+		at org.apache.catalina.webresources.StandardRoot.getResourceInternal(StandardRoot.java:273)
+		at org.apache.catalina.webresources.Cache.getResource(Cache.java:64)
+		at org.apache.catalina.webresources.StandardRoot.getResource(StandardRoot.java:212)
+		at org.apache.catalina.webresources.StandardRoot.getClassLoaderResource(StandardRoot.java:221)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResourceAsStream(WebappClassLoaderBase.java:963)
+		at org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc(WebappClassLoaderBase.java:1465)
+		at org.apache.catalina.loader.WebappClassLoaderBase.clearReferences(WebappClassLoaderBase.java:1415)
+		at org.apache.catalina.loader.WebappClassLoaderBase.stop(WebappClassLoaderBase.java:1352)
+		at org.apache.catalina.loader.WebappLoader.stopInternal(WebappLoader.java:370)
+		at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:235)
+		at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:4707)
+		at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:235)
+		at org.apache.catalina.core.ContainerBase.removeChild(ContainerBase.java:626)
+		at org.apache.catalina.startup.HostConfig.undeploy(HostConfig.java:1447)
+		at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1376)
+		at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1629)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:263)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:109)
+		at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:940)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1139)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1143)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1121)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+		at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:358)
+		at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:1575)
+	Caused by: java.nio.file.NoSuchFileException: /persistent/home/user/documents/education/universite_angers/mi/m1/blocs/web-avance/projet/tomcat/apache-tomcat-11.0.5/webapps/examples/WEB-INF/lib/taglibs-standard-impl-1.2.5-migrated-0.0.1.jar
+		at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92)
+		at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106)
+		at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111)
+		at java.base/sun.nio.fs.UnixFileAttributeViews$Basic.readAttributes(UnixFileAttributeViews.java:56)
+		at java.base/sun.nio.fs.UnixFileSystemProvider.readAttributes(UnixFileSystemProvider.java:172)
+		at java.base/sun.nio.fs.LinuxFileSystemProvider.readAttributes(LinuxFileSystemProvider.java:99)
+		at java.base/java.nio.file.Files.readAttributes(Files.java:1865)
+		at java.base/java.util.zip.ZipFile$Source.get(ZipFile.java:1512)
+		at java.base/java.util.zip.ZipFile$CleanableResource.<init>(ZipFile.java:744)
+		at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:254)
+		at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:181)
+		at java.base/java.util.jar.JarFile.<init>(JarFile.java:345)
+		at org.apache.catalina.webresources.AbstractArchiveResourceSet.openJarFile(AbstractArchiveResourceSet.java:299)
+		at org.apache.catalina.webresources.AbstractSingleArchiveResourceSet.getArchiveEntry(AbstractSingleArchiveResourceSet.java:95)
+		... 30 more
+21-Mar-2025 10:23:39.802 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/host-manager]
+21-Mar-2025 10:23:39.809 WARNING [Catalina-utility-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc JDBC driver de-registration failed for web application [host-manager]
+	java.lang.NullPointerException: Cannot invoke "java.io.InputStream.read(byte[], int, int)" because "is" is null
+		at org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc(WebappClassLoaderBase.java:1466)
+		at org.apache.catalina.loader.WebappClassLoaderBase.clearReferences(WebappClassLoaderBase.java:1415)
+		at org.apache.catalina.loader.WebappClassLoaderBase.stop(WebappClassLoaderBase.java:1352)
+		at org.apache.catalina.loader.WebappLoader.stopInternal(WebappLoader.java:370)
+		at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:235)
+		at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:4707)
+		at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:235)
+		at org.apache.catalina.core.ContainerBase.removeChild(ContainerBase.java:626)
+		at org.apache.catalina.startup.HostConfig.undeploy(HostConfig.java:1447)
+		at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1376)
+		at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1629)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:263)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:109)
+		at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:940)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1139)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1143)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1121)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+		at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:358)
+		at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:1575)
+21-Mar-2025 10:23:40.333 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/manager]
+21-Mar-2025 10:23:40.339 WARNING [Catalina-utility-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc JDBC driver de-registration failed for web application [manager]
+	java.lang.NullPointerException: Cannot invoke "java.io.InputStream.read(byte[], int, int)" because "is" is null
+		at org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc(WebappClassLoaderBase.java:1466)
+		at org.apache.catalina.loader.WebappClassLoaderBase.clearReferences(WebappClassLoaderBase.java:1415)
+		at org.apache.catalina.loader.WebappClassLoaderBase.stop(WebappClassLoaderBase.java:1352)
+		at org.apache.catalina.loader.WebappLoader.stopInternal(WebappLoader.java:370)
+		at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:235)
+		at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:4707)
+		at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:235)
+		at org.apache.catalina.core.ContainerBase.removeChild(ContainerBase.java:626)
+		at org.apache.catalina.startup.HostConfig.undeploy(HostConfig.java:1447)
+		at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1376)
+		at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1629)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:263)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:109)
+		at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:940)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1139)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1143)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1121)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+		at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:358)
+		at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:1575)
+21-Mar-2025 10:23:40.856 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/docs]
+21-Mar-2025 10:23:40.860 WARNING [Catalina-utility-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc JDBC driver de-registration failed for web application [docs]
+	java.lang.NullPointerException: Cannot invoke "java.io.InputStream.read(byte[], int, int)" because "is" is null
+		at org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc(WebappClassLoaderBase.java:1466)
+		at org.apache.catalina.loader.WebappClassLoaderBase.clearReferences(WebappClassLoaderBase.java:1415)
+		at org.apache.catalina.loader.WebappClassLoaderBase.stop(WebappClassLoaderBase.java:1352)
+		at org.apache.catalina.loader.WebappLoader.stopInternal(WebappLoader.java:370)
+		at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:235)
+		at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:4707)
+		at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:235)
+		at org.apache.catalina.core.ContainerBase.removeChild(ContainerBase.java:626)
+		at org.apache.catalina.startup.HostConfig.undeploy(HostConfig.java:1447)
+		at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1376)
+		at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1629)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:263)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:109)
+		at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:940)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1139)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1143)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1121)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+		at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:358)
+		at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:1575)
+21-Mar-2025 10:24:00.771 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+21-Mar-2025 10:24:00.772 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+21-Mar-2025 10:24:01.025 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+21-Mar-2025 10:24:01.028 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+21-Mar-2025 10:24:01.629 WARNING [main] org.apache.tomcat.util.net.Acceptor.stopMillis The acceptor thread [http-nio-8080-Acceptor] did not stop cleanly
+21-Mar-2025 10:24:01.636 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+21-Mar-2025 10:26:11.114 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/11.0.5
+21-Mar-2025 10:26:11.119 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Feb 28 2025 15:54:41 UTC
+21-Mar-2025 10:26:11.120 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 11.0.5.0
+21-Mar-2025 10:26:11.120 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+21-Mar-2025 10:26:11.120 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.6.76
+21-Mar-2025 10:26:11.121 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+21-Mar-2025 10:26:11.121 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /nix/store/kwlr33x09cp7bdah33ih3z6yal2vz8g8-openjdk-23.0.2+7/lib/openjdk
+21-Mar-2025 10:26:11.121 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           23.0.2+7
+21-Mar-2025 10:26:11.122 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+21-Mar-2025 10:26:11.122 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /persistent/home/user/documents/education/universite_angers/mi/m1/blocs/web-avance/projet/apache-tomcat-11.0.5
+21-Mar-2025 10:26:11.122 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /persistent/home/user/documents/education/universite_angers/mi/m1/blocs/web-avance/projet/apache-tomcat-11.0.5
+21-Mar-2025 10:26:11.136 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/persistent/home/user/documents/education/universite_angers/mi/m1/blocs/web-avance/projet/apache-tomcat-11.0.5/conf/logging.properties
+21-Mar-2025 10:26:11.136 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+21-Mar-2025 10:26:11.136 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+21-Mar-2025 10:26:11.137 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+21-Mar-2025 10:26:11.137 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+21-Mar-2025 10:26:11.137 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang.reflect=ALL-UNNAMED
+21-Mar-2025 10:26:11.137 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+21-Mar-2025 10:26:11.138 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+21-Mar-2025 10:26:11.138 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+21-Mar-2025 10:26:11.138 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+21-Mar-2025 10:26:11.138 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --enable-native-access=ALL-UNNAMED
+21-Mar-2025 10:26:11.139 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/persistent/home/user/documents/education/universite_angers/mi/m1/blocs/web-avance/projet/apache-tomcat-11.0.5
+21-Mar-2025 10:26:11.139 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/persistent/home/user/documents/education/universite_angers/mi/m1/blocs/web-avance/projet/apache-tomcat-11.0.5
+21-Mar-2025 10:26:11.139 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/persistent/home/user/documents/education/universite_angers/mi/m1/blocs/web-avance/projet/apache-tomcat-11.0.5/temp
+21-Mar-2025 10:26:11.139 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.prefs.userRoot=/persistent/home/user/.config/java
+21-Mar-2025 10:26:11.142 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/nix/store/kzjz42h59m6rpr7j2x78bxkz8a2snc75-pipewire-1.2.7-jack/lib:/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib]
+21-Mar-2025 10:26:11.668 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+21-Mar-2025 10:26:11.716 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [859] milliseconds
+21-Mar-2025 10:26:11.784 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+21-Mar-2025 10:26:11.785 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/11.0.5]
+21-Mar-2025 10:26:11.807 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/persistent/home/user/documents/education/universite_angers/mi/m1/blocs/web-avance/projet/apache-tomcat-11.0.5/webapps/app.war]
+21-Mar-2025 10:26:13.517 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+21-Mar-2025 10:26:13.567 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/persistent/home/user/documents/education/universite_angers/mi/m1/blocs/web-avance/projet/apache-tomcat-11.0.5/webapps/app.war] has finished in [1,759] ms
+21-Mar-2025 10:26:13.568 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/persistent/home/user/documents/education/universite_angers/mi/m1/blocs/web-avance/projet/apache-tomcat-11.0.5/webapps/examples]
+21-Mar-2025 10:26:13.939 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/persistent/home/user/documents/education/universite_angers/mi/m1/blocs/web-avance/projet/apache-tomcat-11.0.5/webapps/examples] has finished in [371] ms
+21-Mar-2025 10:26:13.940 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/persistent/home/user/documents/education/universite_angers/mi/m1/blocs/web-avance/projet/apache-tomcat-11.0.5/webapps/ROOT]
+21-Mar-2025 10:26:13.980 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/persistent/home/user/documents/education/universite_angers/mi/m1/blocs/web-avance/projet/apache-tomcat-11.0.5/webapps/ROOT] has finished in [40] ms
+21-Mar-2025 10:26:13.981 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/persistent/home/user/documents/education/universite_angers/mi/m1/blocs/web-avance/projet/apache-tomcat-11.0.5/webapps/manager]
+21-Mar-2025 10:26:14.025 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/persistent/home/user/documents/education/universite_angers/mi/m1/blocs/web-avance/projet/apache-tomcat-11.0.5/webapps/manager] has finished in [44] ms
+21-Mar-2025 10:26:14.026 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/persistent/home/user/documents/education/universite_angers/mi/m1/blocs/web-avance/projet/apache-tomcat-11.0.5/webapps/docs]
+21-Mar-2025 10:26:14.055 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/persistent/home/user/documents/education/universite_angers/mi/m1/blocs/web-avance/projet/apache-tomcat-11.0.5/webapps/docs] has finished in [29] ms
+21-Mar-2025 10:26:14.055 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/persistent/home/user/documents/education/universite_angers/mi/m1/blocs/web-avance/projet/apache-tomcat-11.0.5/webapps/host-manager]
+21-Mar-2025 10:26:14.089 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/persistent/home/user/documents/education/universite_angers/mi/m1/blocs/web-avance/projet/apache-tomcat-11.0.5/webapps/host-manager] has finished in [34] ms
+21-Mar-2025 10:26:14.095 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+21-Mar-2025 10:26:14.109 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [2390] milliseconds
+21-Mar-2025 10:34:56.865 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+21-Mar-2025 10:34:56.866 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+21-Mar-2025 10:34:57.120 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+21-Mar-2025 10:34:57.188 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+21-Mar-2025 10:34:57.789 WARNING [main] org.apache.tomcat.util.net.Acceptor.stopMillis The acceptor thread [http-nio-8080-Acceptor] did not stop cleanly
+21-Mar-2025 10:34:57.798 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+21-Mar-2025 10:36:08.572 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/11.0.5
+21-Mar-2025 10:36:08.578 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Feb 28 2025 15:54:41 UTC
+21-Mar-2025 10:36:08.578 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 11.0.5.0
+21-Mar-2025 10:36:08.578 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+21-Mar-2025 10:36:08.578 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.6.76
+21-Mar-2025 10:36:08.579 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+21-Mar-2025 10:36:08.579 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /nix/store/1frnfh27i5pqk9xqahrjchlwyfzqgs1y-openjdk-21.0.5+11/lib/openjdk
+21-Mar-2025 10:36:08.579 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           21.0.5+1-nixos
+21-Mar-2025 10:36:08.580 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+21-Mar-2025 10:36:08.580 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /persistent/home/user/documents/education/universite_angers/mi/m1/blocs/web-avance/projet/apache-tomcat-11.0.5
+21-Mar-2025 10:36:08.580 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /persistent/home/user/documents/education/universite_angers/mi/m1/blocs/web-avance/projet/apache-tomcat-11.0.5
+21-Mar-2025 10:36:08.596 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/persistent/home/user/documents/education/universite_angers/mi/m1/blocs/web-avance/projet/apache-tomcat-11.0.5/conf/logging.properties
+21-Mar-2025 10:36:08.596 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+21-Mar-2025 10:36:08.597 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+21-Mar-2025 10:36:08.597 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+21-Mar-2025 10:36:08.597 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+21-Mar-2025 10:36:08.598 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang.reflect=ALL-UNNAMED
+21-Mar-2025 10:36:08.598 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+21-Mar-2025 10:36:08.598 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+21-Mar-2025 10:36:08.599 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+21-Mar-2025 10:36:08.599 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+21-Mar-2025 10:36:08.599 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --enable-native-access=ALL-UNNAMED
+21-Mar-2025 10:36:08.599 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/persistent/home/user/documents/education/universite_angers/mi/m1/blocs/web-avance/projet/apache-tomcat-11.0.5
+21-Mar-2025 10:36:08.600 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/persistent/home/user/documents/education/universite_angers/mi/m1/blocs/web-avance/projet/apache-tomcat-11.0.5
+21-Mar-2025 10:36:08.600 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/persistent/home/user/documents/education/universite_angers/mi/m1/blocs/web-avance/projet/apache-tomcat-11.0.5/temp
+21-Mar-2025 10:36:08.600 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.prefs.userRoot=/persistent/home/user/.config/java
+21-Mar-2025 10:36:08.604 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/nix/store/kzjz42h59m6rpr7j2x78bxkz8a2snc75-pipewire-1.2.7-jack/lib:/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib]
+21-Mar-2025 10:36:09.182 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+21-Mar-2025 10:36:09.214 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [890] milliseconds
+21-Mar-2025 10:36:09.273 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+21-Mar-2025 10:36:09.273 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/11.0.5]
+21-Mar-2025 10:36:09.297 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/persistent/home/user/documents/education/universite_angers/mi/m1/blocs/web-avance/projet/apache-tomcat-11.0.5/webapps/app.war]
+21-Mar-2025 10:36:10.968 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+21-Mar-2025 10:36:11.022 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/persistent/home/user/documents/education/universite_angers/mi/m1/blocs/web-avance/projet/apache-tomcat-11.0.5/webapps/app.war] has finished in [1,723] ms
+21-Mar-2025 10:36:11.023 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/persistent/home/user/documents/education/universite_angers/mi/m1/blocs/web-avance/projet/apache-tomcat-11.0.5/webapps/examples]
+21-Mar-2025 10:36:11.353 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/persistent/home/user/documents/education/universite_angers/mi/m1/blocs/web-avance/projet/apache-tomcat-11.0.5/webapps/examples] has finished in [330] ms
+21-Mar-2025 10:36:11.353 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/persistent/home/user/documents/education/universite_angers/mi/m1/blocs/web-avance/projet/apache-tomcat-11.0.5/webapps/ROOT]
+21-Mar-2025 10:36:11.376 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/persistent/home/user/documents/education/universite_angers/mi/m1/blocs/web-avance/projet/apache-tomcat-11.0.5/webapps/ROOT] has finished in [23] ms
+21-Mar-2025 10:36:11.376 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/persistent/home/user/documents/education/universite_angers/mi/m1/blocs/web-avance/projet/apache-tomcat-11.0.5/webapps/manager]
+21-Mar-2025 10:36:11.409 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/persistent/home/user/documents/education/universite_angers/mi/m1/blocs/web-avance/projet/apache-tomcat-11.0.5/webapps/manager] has finished in [33] ms
+21-Mar-2025 10:36:11.410 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/persistent/home/user/documents/education/universite_angers/mi/m1/blocs/web-avance/projet/apache-tomcat-11.0.5/webapps/docs]
+21-Mar-2025 10:36:11.432 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/persistent/home/user/documents/education/universite_angers/mi/m1/blocs/web-avance/projet/apache-tomcat-11.0.5/webapps/docs] has finished in [22] ms
+21-Mar-2025 10:36:11.432 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/persistent/home/user/documents/education/universite_angers/mi/m1/blocs/web-avance/projet/apache-tomcat-11.0.5/webapps/host-manager]
+21-Mar-2025 10:36:11.465 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/persistent/home/user/documents/education/universite_angers/mi/m1/blocs/web-avance/projet/apache-tomcat-11.0.5/webapps/host-manager] has finished in [33] ms
+21-Mar-2025 10:36:11.471 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+21-Mar-2025 10:36:11.488 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [2272] milliseconds
+21-Mar-2025 10:36:34.705 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/11.0.5
+21-Mar-2025 10:36:34.710 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Feb 28 2025 15:54:41 UTC
+21-Mar-2025 10:36:34.711 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 11.0.5.0
+21-Mar-2025 10:36:34.711 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+21-Mar-2025 10:36:34.711 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.6.76
+21-Mar-2025 10:36:34.711 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+21-Mar-2025 10:36:34.712 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /nix/store/1frnfh27i5pqk9xqahrjchlwyfzqgs1y-openjdk-21.0.5+11/lib/openjdk
+21-Mar-2025 10:36:34.712 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           21.0.5+1-nixos
+21-Mar-2025 10:36:34.712 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+21-Mar-2025 10:36:34.712 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /persistent/home/user/documents/education/universite_angers/mi/m1/blocs/web-avance/projet/apache-tomcat-11.0.5
+21-Mar-2025 10:36:34.713 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /persistent/home/user/documents/education/universite_angers/mi/m1/blocs/web-avance/projet/apache-tomcat-11.0.5
+21-Mar-2025 10:36:34.727 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/persistent/home/user/documents/education/universite_angers/mi/m1/blocs/web-avance/projet/apache-tomcat-11.0.5/conf/logging.properties
+21-Mar-2025 10:36:34.728 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+21-Mar-2025 10:36:34.728 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+21-Mar-2025 10:36:34.728 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+21-Mar-2025 10:36:34.729 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+21-Mar-2025 10:36:34.729 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang.reflect=ALL-UNNAMED
+21-Mar-2025 10:36:34.729 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+21-Mar-2025 10:36:34.729 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+21-Mar-2025 10:36:34.730 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+21-Mar-2025 10:36:34.730 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+21-Mar-2025 10:36:34.730 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --enable-native-access=ALL-UNNAMED
+21-Mar-2025 10:36:34.731 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/persistent/home/user/documents/education/universite_angers/mi/m1/blocs/web-avance/projet/apache-tomcat-11.0.5
+21-Mar-2025 10:36:34.731 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/persistent/home/user/documents/education/universite_angers/mi/m1/blocs/web-avance/projet/apache-tomcat-11.0.5
+21-Mar-2025 10:36:34.731 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/persistent/home/user/documents/education/universite_angers/mi/m1/blocs/web-avance/projet/apache-tomcat-11.0.5/temp
+21-Mar-2025 10:36:34.731 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.prefs.userRoot=/persistent/home/user/.config/java
+21-Mar-2025 10:36:34.735 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/nix/store/kzjz42h59m6rpr7j2x78bxkz8a2snc75-pipewire-1.2.7-jack/lib:/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib]
+21-Mar-2025 10:36:35.194 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+21-Mar-2025 10:36:35.211 SEVERE [main] org.apache.catalina.util.LifecycleBase.handleSubClassException Failed to initialize component [Connector["http-nio-8080"]]
+	org.apache.catalina.LifecycleException: Protocol handler initialization failed
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1056)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:122)
+		at org.apache.catalina.core.StandardService.initInternal(StandardService.java:525)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:122)
+		at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:953)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:122)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:710)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:733)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+		at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:299)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:469)
+	Caused by: java.net.BindException: Address already in use
+		at java.base/sun.nio.ch.Net.bind0(Native Method)
+		at java.base/sun.nio.ch.Net.bind(Net.java:565)
+		at java.base/sun.nio.ch.ServerSocketChannelImpl.netBind(ServerSocketChannelImpl.java:344)
+		at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:301)
+		at org.apache.tomcat.util.net.NioEndpoint.initServerSocket(NioEndpoint.java:240)
+		at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:195)
+		at org.apache.tomcat.util.net.AbstractEndpoint.bindWithCleanup(AbstractEndpoint.java:1472)
+		at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:1485)
+		at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:633)
+		at org.apache.coyote.http11.AbstractHttp11Protocol.init(AbstractHttp11Protocol.java:83)
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1054)
+		... 11 more
+21-Mar-2025 10:36:35.212 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [746] milliseconds
+21-Mar-2025 10:36:35.271 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+21-Mar-2025 10:36:35.271 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/11.0.5]
+21-Mar-2025 10:36:35.292 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/persistent/home/user/documents/education/universite_angers/mi/m1/blocs/web-avance/projet/apache-tomcat-11.0.5/webapps/app.war]
+21-Mar-2025 10:36:36.878 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+21-Mar-2025 10:36:36.915 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/persistent/home/user/documents/education/universite_angers/mi/m1/blocs/web-avance/projet/apache-tomcat-11.0.5/webapps/app.war] has finished in [1,623] ms
+21-Mar-2025 10:36:36.916 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/persistent/home/user/documents/education/universite_angers/mi/m1/blocs/web-avance/projet/apache-tomcat-11.0.5/webapps/examples]
+21-Mar-2025 10:36:37.201 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/persistent/home/user/documents/education/universite_angers/mi/m1/blocs/web-avance/projet/apache-tomcat-11.0.5/webapps/examples] has finished in [285] ms
+21-Mar-2025 10:36:37.202 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/persistent/home/user/documents/education/universite_angers/mi/m1/blocs/web-avance/projet/apache-tomcat-11.0.5/webapps/ROOT]
+21-Mar-2025 10:36:37.224 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/persistent/home/user/documents/education/universite_angers/mi/m1/blocs/web-avance/projet/apache-tomcat-11.0.5/webapps/ROOT] has finished in [22] ms
+21-Mar-2025 10:36:37.224 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/persistent/home/user/documents/education/universite_angers/mi/m1/blocs/web-avance/projet/apache-tomcat-11.0.5/webapps/manager]
+21-Mar-2025 10:36:37.260 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/persistent/home/user/documents/education/universite_angers/mi/m1/blocs/web-avance/projet/apache-tomcat-11.0.5/webapps/manager] has finished in [35] ms
+21-Mar-2025 10:36:37.260 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/persistent/home/user/documents/education/universite_angers/mi/m1/blocs/web-avance/projet/apache-tomcat-11.0.5/webapps/docs]
+21-Mar-2025 10:36:37.283 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/persistent/home/user/documents/education/universite_angers/mi/m1/blocs/web-avance/projet/apache-tomcat-11.0.5/webapps/docs] has finished in [23] ms
+21-Mar-2025 10:36:37.283 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/persistent/home/user/documents/education/universite_angers/mi/m1/blocs/web-avance/projet/apache-tomcat-11.0.5/webapps/host-manager]
+21-Mar-2025 10:36:37.309 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/persistent/home/user/documents/education/universite_angers/mi/m1/blocs/web-avance/projet/apache-tomcat-11.0.5/webapps/host-manager] has finished in [26] ms
+21-Mar-2025 10:36:37.315 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [2101] milliseconds
+21-Mar-2025 10:36:37.321 SEVERE [main] org.apache.catalina.core.StandardServer.await Failed to create server shutdown socket on address [localhost] and port [8005] (base port [8005] and offset [0])
+	java.net.BindException: Address already in use
+		at java.base/sun.nio.ch.Net.bind0(Native Method)
+		at java.base/sun.nio.ch.Net.bind(Net.java:565)
+		at java.base/sun.nio.ch.Net.bind(Net.java:554)
+		at java.base/sun.nio.ch.NioSocketImpl.bind(NioSocketImpl.java:636)
+		at java.base/java.net.ServerSocket.bind(ServerSocket.java:391)
+		at java.base/java.net.ServerSocket.<init>(ServerSocket.java:278)
+		at org.apache.catalina.core.StandardServer.await(StandardServer.java:532)
+		at org.apache.catalina.startup.Catalina.await(Catalina.java:849)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:797)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:342)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:470)
+21-Mar-2025 10:36:37.369 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+21-Mar-2025 10:36:37.370 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+21-Mar-2025 10:36:37.409 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+21-Mar-2025 10:36:37.411 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+21-Mar-2025 10:36:45.489 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/11.0.5
+21-Mar-2025 10:36:45.497 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Feb 28 2025 15:54:41 UTC
+21-Mar-2025 10:36:45.498 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 11.0.5.0
+21-Mar-2025 10:36:45.498 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+21-Mar-2025 10:36:45.498 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.6.76
+21-Mar-2025 10:36:45.498 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+21-Mar-2025 10:36:45.499 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /nix/store/1frnfh27i5pqk9xqahrjchlwyfzqgs1y-openjdk-21.0.5+11/lib/openjdk
+21-Mar-2025 10:36:45.499 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           21.0.5+1-nixos
+21-Mar-2025 10:36:45.499 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+21-Mar-2025 10:36:45.500 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /persistent/home/user/documents/education/universite_angers/mi/m1/blocs/web-avance/projet/apache-tomcat-11.0.5
+21-Mar-2025 10:36:45.500 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /persistent/home/user/documents/education/universite_angers/mi/m1/blocs/web-avance/projet/apache-tomcat-11.0.5
+21-Mar-2025 10:36:45.522 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/persistent/home/user/documents/education/universite_angers/mi/m1/blocs/web-avance/projet/apache-tomcat-11.0.5/conf/logging.properties
+21-Mar-2025 10:36:45.523 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+21-Mar-2025 10:36:45.523 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+21-Mar-2025 10:36:45.523 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+21-Mar-2025 10:36:45.524 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+21-Mar-2025 10:36:45.524 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang.reflect=ALL-UNNAMED
+21-Mar-2025 10:36:45.524 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+21-Mar-2025 10:36:45.525 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+21-Mar-2025 10:36:45.525 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+21-Mar-2025 10:36:45.525 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+21-Mar-2025 10:36:45.526 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --enable-native-access=ALL-UNNAMED
+21-Mar-2025 10:36:45.526 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/persistent/home/user/documents/education/universite_angers/mi/m1/blocs/web-avance/projet/apache-tomcat-11.0.5
+21-Mar-2025 10:36:45.526 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/persistent/home/user/documents/education/universite_angers/mi/m1/blocs/web-avance/projet/apache-tomcat-11.0.5
+21-Mar-2025 10:36:45.526 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/persistent/home/user/documents/education/universite_angers/mi/m1/blocs/web-avance/projet/apache-tomcat-11.0.5/temp
+21-Mar-2025 10:36:45.527 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.prefs.userRoot=/persistent/home/user/.config/java
+21-Mar-2025 10:36:45.531 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/nix/store/kzjz42h59m6rpr7j2x78bxkz8a2snc75-pipewire-1.2.7-jack/lib:/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib]
+21-Mar-2025 10:36:46.139 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+21-Mar-2025 10:36:46.159 SEVERE [main] org.apache.catalina.util.LifecycleBase.handleSubClassException Failed to initialize component [Connector["http-nio-8080"]]
+	org.apache.catalina.LifecycleException: Protocol handler initialization failed
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1056)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:122)
+		at org.apache.catalina.core.StandardService.initInternal(StandardService.java:525)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:122)
+		at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:953)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:122)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:710)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:733)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+		at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:299)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:469)
+	Caused by: java.net.BindException: Address already in use
+		at java.base/sun.nio.ch.Net.bind0(Native Method)
+		at java.base/sun.nio.ch.Net.bind(Net.java:565)
+		at java.base/sun.nio.ch.ServerSocketChannelImpl.netBind(ServerSocketChannelImpl.java:344)
+		at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:301)
+		at org.apache.tomcat.util.net.NioEndpoint.initServerSocket(NioEndpoint.java:240)
+		at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:195)
+		at org.apache.tomcat.util.net.AbstractEndpoint.bindWithCleanup(AbstractEndpoint.java:1472)
+		at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:1485)
+		at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:633)
+		at org.apache.coyote.http11.AbstractHttp11Protocol.init(AbstractHttp11Protocol.java:83)
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1054)
+		... 11 more
+21-Mar-2025 10:36:46.160 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [942] milliseconds
+21-Mar-2025 10:36:46.239 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+21-Mar-2025 10:36:46.240 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/11.0.5]
+21-Mar-2025 10:36:46.271 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/persistent/home/user/documents/education/universite_angers/mi/m1/blocs/web-avance/projet/apache-tomcat-11.0.5/webapps/app.war]
+21-Mar-2025 10:36:47.998 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+21-Mar-2025 10:36:48.034 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/persistent/home/user/documents/education/universite_angers/mi/m1/blocs/web-avance/projet/apache-tomcat-11.0.5/webapps/app.war] has finished in [1,762] ms
+21-Mar-2025 10:36:48.035 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/persistent/home/user/documents/education/universite_angers/mi/m1/blocs/web-avance/projet/apache-tomcat-11.0.5/webapps/examples]
+21-Mar-2025 10:36:48.301 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/persistent/home/user/documents/education/universite_angers/mi/m1/blocs/web-avance/projet/apache-tomcat-11.0.5/webapps/examples] has finished in [266] ms
+21-Mar-2025 10:36:48.301 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/persistent/home/user/documents/education/universite_angers/mi/m1/blocs/web-avance/projet/apache-tomcat-11.0.5/webapps/ROOT]
+21-Mar-2025 10:36:48.325 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/persistent/home/user/documents/education/universite_angers/mi/m1/blocs/web-avance/projet/apache-tomcat-11.0.5/webapps/ROOT] has finished in [24] ms
+21-Mar-2025 10:36:48.326 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/persistent/home/user/documents/education/universite_angers/mi/m1/blocs/web-avance/projet/apache-tomcat-11.0.5/webapps/manager]
+21-Mar-2025 10:36:48.364 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/persistent/home/user/documents/education/universite_angers/mi/m1/blocs/web-avance/projet/apache-tomcat-11.0.5/webapps/manager] has finished in [39] ms
+21-Mar-2025 10:36:48.365 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/persistent/home/user/documents/education/universite_angers/mi/m1/blocs/web-avance/projet/apache-tomcat-11.0.5/webapps/docs]
+21-Mar-2025 10:36:48.394 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/persistent/home/user/documents/education/universite_angers/mi/m1/blocs/web-avance/projet/apache-tomcat-11.0.5/webapps/docs] has finished in [30] ms
+21-Mar-2025 10:36:48.394 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/persistent/home/user/documents/education/universite_angers/mi/m1/blocs/web-avance/projet/apache-tomcat-11.0.5/webapps/host-manager]
+21-Mar-2025 10:36:48.428 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/persistent/home/user/documents/education/universite_angers/mi/m1/blocs/web-avance/projet/apache-tomcat-11.0.5/webapps/host-manager] has finished in [34] ms
+21-Mar-2025 10:36:48.434 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [2272] milliseconds
+21-Mar-2025 10:36:48.439 SEVERE [main] org.apache.catalina.core.StandardServer.await Failed to create server shutdown socket on address [localhost] and port [8005] (base port [8005] and offset [0])
+	java.net.BindException: Address already in use
+		at java.base/sun.nio.ch.Net.bind0(Native Method)
+		at java.base/sun.nio.ch.Net.bind(Net.java:565)
+		at java.base/sun.nio.ch.Net.bind(Net.java:554)
+		at java.base/sun.nio.ch.NioSocketImpl.bind(NioSocketImpl.java:636)
+		at java.base/java.net.ServerSocket.bind(ServerSocket.java:391)
+		at java.base/java.net.ServerSocket.<init>(ServerSocket.java:278)
+		at org.apache.catalina.core.StandardServer.await(StandardServer.java:532)
+		at org.apache.catalina.startup.Catalina.await(Catalina.java:849)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:797)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:342)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:470)
+21-Mar-2025 10:36:48.440 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+21-Mar-2025 10:36:48.440 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+21-Mar-2025 10:36:48.477 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+21-Mar-2025 10:36:48.478 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+21-Mar-2025 10:37:01.526 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+21-Mar-2025 10:37:01.527 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+21-Mar-2025 10:37:01.780 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+21-Mar-2025 10:37:01.851 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+21-Mar-2025 10:37:02.452 WARNING [main] org.apache.tomcat.util.net.Acceptor.stopMillis The acceptor thread [http-nio-8080-Acceptor] did not stop cleanly
+21-Mar-2025 10:37:02.461 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+21-Mar-2025 10:37:08.836 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/11.0.5
+21-Mar-2025 10:37:08.841 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Feb 28 2025 15:54:41 UTC
+21-Mar-2025 10:37:08.842 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 11.0.5.0
+21-Mar-2025 10:37:08.842 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+21-Mar-2025 10:37:08.843 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.6.76
+21-Mar-2025 10:37:08.843 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+21-Mar-2025 10:37:08.843 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /nix/store/1frnfh27i5pqk9xqahrjchlwyfzqgs1y-openjdk-21.0.5+11/lib/openjdk
+21-Mar-2025 10:37:08.844 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           21.0.5+1-nixos
+21-Mar-2025 10:37:08.844 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+21-Mar-2025 10:37:08.844 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /persistent/home/user/documents/education/universite_angers/mi/m1/blocs/web-avance/projet/apache-tomcat-11.0.5
+21-Mar-2025 10:37:08.844 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /persistent/home/user/documents/education/universite_angers/mi/m1/blocs/web-avance/projet/apache-tomcat-11.0.5
+21-Mar-2025 10:37:08.861 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/persistent/home/user/documents/education/universite_angers/mi/m1/blocs/web-avance/projet/apache-tomcat-11.0.5/conf/logging.properties
+21-Mar-2025 10:37:08.861 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+21-Mar-2025 10:37:08.861 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+21-Mar-2025 10:37:08.862 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+21-Mar-2025 10:37:08.862 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+21-Mar-2025 10:37:08.862 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang.reflect=ALL-UNNAMED
+21-Mar-2025 10:37:08.862 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+21-Mar-2025 10:37:08.862 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+21-Mar-2025 10:37:08.863 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+21-Mar-2025 10:37:08.863 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+21-Mar-2025 10:37:08.863 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --enable-native-access=ALL-UNNAMED
+21-Mar-2025 10:37:08.863 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/persistent/home/user/documents/education/universite_angers/mi/m1/blocs/web-avance/projet/apache-tomcat-11.0.5
+21-Mar-2025 10:37:08.864 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/persistent/home/user/documents/education/universite_angers/mi/m1/blocs/web-avance/projet/apache-tomcat-11.0.5
+21-Mar-2025 10:37:08.864 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/persistent/home/user/documents/education/universite_angers/mi/m1/blocs/web-avance/projet/apache-tomcat-11.0.5/temp
+21-Mar-2025 10:37:08.864 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.prefs.userRoot=/persistent/home/user/.config/java
+21-Mar-2025 10:37:08.868 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/nix/store/kzjz42h59m6rpr7j2x78bxkz8a2snc75-pipewire-1.2.7-jack/lib:/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib]
+21-Mar-2025 10:37:09.379 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+21-Mar-2025 10:37:09.420 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [817] milliseconds
+21-Mar-2025 10:37:09.490 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+21-Mar-2025 10:37:09.490 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/11.0.5]
+21-Mar-2025 10:37:09.518 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/persistent/home/user/documents/education/universite_angers/mi/m1/blocs/web-avance/projet/apache-tomcat-11.0.5/webapps/app.war]
+21-Mar-2025 10:37:11.374 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+21-Mar-2025 10:37:11.408 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/persistent/home/user/documents/education/universite_angers/mi/m1/blocs/web-avance/projet/apache-tomcat-11.0.5/webapps/app.war] has finished in [1,889] ms
+21-Mar-2025 10:37:11.408 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/persistent/home/user/documents/education/universite_angers/mi/m1/blocs/web-avance/projet/apache-tomcat-11.0.5/webapps/examples]
+21-Mar-2025 10:37:11.692 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/persistent/home/user/documents/education/universite_angers/mi/m1/blocs/web-avance/projet/apache-tomcat-11.0.5/webapps/examples] has finished in [283] ms
+21-Mar-2025 10:37:11.692 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/persistent/home/user/documents/education/universite_angers/mi/m1/blocs/web-avance/projet/apache-tomcat-11.0.5/webapps/ROOT]
+21-Mar-2025 10:37:11.722 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/persistent/home/user/documents/education/universite_angers/mi/m1/blocs/web-avance/projet/apache-tomcat-11.0.5/webapps/ROOT] has finished in [30] ms
+21-Mar-2025 10:37:11.723 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/persistent/home/user/documents/education/universite_angers/mi/m1/blocs/web-avance/projet/apache-tomcat-11.0.5/webapps/manager]
+21-Mar-2025 10:37:11.766 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/persistent/home/user/documents/education/universite_angers/mi/m1/blocs/web-avance/projet/apache-tomcat-11.0.5/webapps/manager] has finished in [43] ms
+21-Mar-2025 10:37:11.766 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/persistent/home/user/documents/education/universite_angers/mi/m1/blocs/web-avance/projet/apache-tomcat-11.0.5/webapps/docs]
+21-Mar-2025 10:37:11.795 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/persistent/home/user/documents/education/universite_angers/mi/m1/blocs/web-avance/projet/apache-tomcat-11.0.5/webapps/docs] has finished in [28] ms
+21-Mar-2025 10:37:11.795 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/persistent/home/user/documents/education/universite_angers/mi/m1/blocs/web-avance/projet/apache-tomcat-11.0.5/webapps/host-manager]
+21-Mar-2025 10:37:11.826 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/persistent/home/user/documents/education/universite_angers/mi/m1/blocs/web-avance/projet/apache-tomcat-11.0.5/webapps/host-manager] has finished in [31] ms
+21-Mar-2025 10:37:11.831 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+21-Mar-2025 10:37:11.844 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [2422] milliseconds
+21-Mar-2025 10:38:29.329 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+21-Mar-2025 10:38:29.330 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+21-Mar-2025 10:38:29.582 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+21-Mar-2025 10:38:29.625 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+21-Mar-2025 10:38:30.226 WARNING [main] org.apache.tomcat.util.net.Acceptor.stopMillis The acceptor thread [http-nio-8080-Acceptor] did not stop cleanly
+21-Mar-2025 10:38:30.235 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+21-Mar-2025 10:38:35.569 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/11.0.5
+21-Mar-2025 10:38:35.577 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Feb 28 2025 15:54:41 UTC
+21-Mar-2025 10:38:35.577 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 11.0.5.0
+21-Mar-2025 10:38:35.578 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+21-Mar-2025 10:38:35.578 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.6.76
+21-Mar-2025 10:38:35.578 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+21-Mar-2025 10:38:35.578 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /nix/store/kwlr33x09cp7bdah33ih3z6yal2vz8g8-openjdk-23.0.2+7/lib/openjdk
+21-Mar-2025 10:38:35.579 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           23.0.2+7
+21-Mar-2025 10:38:35.579 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+21-Mar-2025 10:38:35.579 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /persistent/home/user/documents/education/universite_angers/mi/m1/blocs/web-avance/projet/apache-tomcat-11.0.5
+21-Mar-2025 10:38:35.579 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /persistent/home/user/documents/education/universite_angers/mi/m1/blocs/web-avance/projet/apache-tomcat-11.0.5
+21-Mar-2025 10:38:35.594 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/persistent/home/user/documents/education/universite_angers/mi/m1/blocs/web-avance/projet/apache-tomcat-11.0.5/conf/logging.properties
+21-Mar-2025 10:38:35.594 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+21-Mar-2025 10:38:35.595 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+21-Mar-2025 10:38:35.595 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+21-Mar-2025 10:38:35.595 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+21-Mar-2025 10:38:35.596 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang.reflect=ALL-UNNAMED
+21-Mar-2025 10:38:35.596 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+21-Mar-2025 10:38:35.596 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+21-Mar-2025 10:38:35.596 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+21-Mar-2025 10:38:35.597 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+21-Mar-2025 10:38:35.597 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --enable-native-access=ALL-UNNAMED
+21-Mar-2025 10:38:35.597 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/persistent/home/user/documents/education/universite_angers/mi/m1/blocs/web-avance/projet/apache-tomcat-11.0.5
+21-Mar-2025 10:38:35.597 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/persistent/home/user/documents/education/universite_angers/mi/m1/blocs/web-avance/projet/apache-tomcat-11.0.5
+21-Mar-2025 10:38:35.598 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/persistent/home/user/documents/education/universite_angers/mi/m1/blocs/web-avance/projet/apache-tomcat-11.0.5/temp
+21-Mar-2025 10:38:35.598 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.prefs.userRoot=/persistent/home/user/.config/java
+21-Mar-2025 10:38:35.601 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/nix/store/kzjz42h59m6rpr7j2x78bxkz8a2snc75-pipewire-1.2.7-jack/lib:/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib]
+21-Mar-2025 10:38:36.261 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+21-Mar-2025 10:38:36.291 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1032] milliseconds
+21-Mar-2025 10:38:36.346 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+21-Mar-2025 10:38:36.347 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/11.0.5]
+21-Mar-2025 10:38:36.369 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/persistent/home/user/documents/education/universite_angers/mi/m1/blocs/web-avance/projet/apache-tomcat-11.0.5/webapps/app.war]
+21-Mar-2025 10:38:37.953 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+21-Mar-2025 10:38:38.004 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/persistent/home/user/documents/education/universite_angers/mi/m1/blocs/web-avance/projet/apache-tomcat-11.0.5/webapps/app.war] has finished in [1,636] ms
+21-Mar-2025 10:38:38.006 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/persistent/home/user/documents/education/universite_angers/mi/m1/blocs/web-avance/projet/apache-tomcat-11.0.5/webapps/examples]
+21-Mar-2025 10:38:38.315 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/persistent/home/user/documents/education/universite_angers/mi/m1/blocs/web-avance/projet/apache-tomcat-11.0.5/webapps/examples] has finished in [310] ms
+21-Mar-2025 10:38:38.316 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/persistent/home/user/documents/education/universite_angers/mi/m1/blocs/web-avance/projet/apache-tomcat-11.0.5/webapps/ROOT]
+21-Mar-2025 10:38:38.345 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/persistent/home/user/documents/education/universite_angers/mi/m1/blocs/web-avance/projet/apache-tomcat-11.0.5/webapps/ROOT] has finished in [29] ms
+21-Mar-2025 10:38:38.346 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/persistent/home/user/documents/education/universite_angers/mi/m1/blocs/web-avance/projet/apache-tomcat-11.0.5/webapps/manager]
+21-Mar-2025 10:38:38.381 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/persistent/home/user/documents/education/universite_angers/mi/m1/blocs/web-avance/projet/apache-tomcat-11.0.5/webapps/manager] has finished in [35] ms
+21-Mar-2025 10:38:38.382 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/persistent/home/user/documents/education/universite_angers/mi/m1/blocs/web-avance/projet/apache-tomcat-11.0.5/webapps/docs]
+21-Mar-2025 10:38:38.418 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/persistent/home/user/documents/education/universite_angers/mi/m1/blocs/web-avance/projet/apache-tomcat-11.0.5/webapps/docs] has finished in [36] ms
+21-Mar-2025 10:38:38.419 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/persistent/home/user/documents/education/universite_angers/mi/m1/blocs/web-avance/projet/apache-tomcat-11.0.5/webapps/host-manager]
+21-Mar-2025 10:38:38.457 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/persistent/home/user/documents/education/universite_angers/mi/m1/blocs/web-avance/projet/apache-tomcat-11.0.5/webapps/host-manager] has finished in [38] ms
+21-Mar-2025 10:38:38.464 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+21-Mar-2025 10:38:38.482 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [2189] milliseconds
