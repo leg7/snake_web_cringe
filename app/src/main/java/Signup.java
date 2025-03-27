@@ -7,11 +7,11 @@ import jakarta.servlet.http.HttpSession;
 
 import java.io.IOException;
 
-@WebServlet("/login")
-public class Login extends HttpServlet {
+@WebServlet("/signup")
+public class Signup extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 
-	public Login() {
+	public Signup() {
 		super();
 	}
 
@@ -28,7 +28,8 @@ public class Login extends HttpServlet {
 
 		HttpSession session = request.getSession();
 
-		this.getServletContext().getRequestDispatcher("/WEB-INF/login.jsp").forward(request,response);
+		this.getServletContext().getRequestDispatcher("/WEB-INF/signup.jsp").forward(request,response);
 	}
 
 }
+

@@ -1,15 +1,19 @@
 <html>
 <head>
-    <title>Login Page</title>
+    <title>Signup Page</title>
 </head>
 <body>
     <h2>Login</h2>
     <!-- Form that posts to the LoginServlet -->
-    <form action="login" method="post">
+    <form action="signup" method="post">
         <table>
             <tr>
                 <td>Username:</td>
                 <td><input type="text" name="username" required /></td>
+            </tr>
+            <tr>
+                <td>Email:</td>
+                <td><input type="email" name="email" required /></td>
             </tr>
             <tr>
                 <td>Password:</td>
@@ -22,7 +26,7 @@
     </form>
 
     <c:if test="${true}">
-    <p>Hello, ${username} your password is ${password}!</p>
+    <p>Hello, ${password}!</p>
     </c:if>
 
     <!-- Optionally, display an error message if present -->
