@@ -1,4 +1,3 @@
-<%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
     <title>Login Page</title>
@@ -21,6 +20,10 @@
             </tr>
         </table>
     </form>
+
+    <c:if test="${true}">
+    <p>Hello, ${pass}!</p>
+    </c:if>
 
     <!-- Optionally, display an error message if present -->
     <%

@@ -3,7 +3,10 @@ import jakarta.servlet.annotation.WebServlet;
 import jakarta.servlet.http.HttpServlet;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
+import jakarta.servlet.http.HttpSession;
+
 import java.io.IOException;
+import java.io.PrintWriter;
 
 /**
  * Servlet implementation class prov
@@ -17,11 +20,17 @@ public class Login extends HttpServlet {
 	}
 
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		this.getServletContext().getRequestDispatcher("/WEB-INF/login.jsp").forward(request,response);
+		doPost(request, response);
 	}
 
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		doGet(request, response);
+		var password = request.getParameter("password");
+		var username = request.getParameter("username");
+
+		request.setAttribute("password", password);
+		request.setAttribute("username", password);
+
+		this.getServletContext().getRequestDispatcher("/WEB-INF/login.jsp").forward(request,response);
 	}
 
 }
