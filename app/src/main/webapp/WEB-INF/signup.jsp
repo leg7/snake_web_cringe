@@ -1,3 +1,5 @@
+<%@ page pageEncoding="UTF-8" %>
+<%@ taglib prefix="c" uri="jakarta.tags.core" %>
 <html>
 <head>
     <title>Signup Page</title>
@@ -9,7 +11,7 @@
         <table>
             <tr>
                 <td>Username:</td>
-                <td><input type="text" name="username" required /></td>
+                <td><input type="text" name="nick" required /></td>
             </tr>
             <tr>
                 <td>Email:</td>
@@ -26,17 +28,24 @@
     </form>
 
     <c:if test="${true}">
-    <p>Hello, ${password}!</p>
+    <p>Hello there, ${nick}, your password is ${password}!</p>
     </c:if>
 
-    <!-- Optionally, display an error message if present -->
-    <%
-        String error = request.getParameter("error");
-        if (error != null) {
-    %>
-            <p style="color:red;">Invalid username or password</p>
-    <%
-        }
-    %>
+    <c:if test="${errorCreateTable}">
+    <h1>ERROR</h1>
+    </c:if>
+
+    <c:forEach items="${userList}" var="user" varStatus="status">
+    	<p>
+	<c:out value="User number ${user.id}:"/>
+	<br>
+	<c:out value="nickname = ${user.nick}"/>
+	<br>
+	<c:out value="email = ${user.email}"/>
+	<br>
+	<c:out value="password = ${user.password}"/>
+	<br>
+	</p>
+    </c:forEach>
 </body>
 </html>

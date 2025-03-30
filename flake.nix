@@ -17,6 +17,7 @@
         jdt-language-server
         openjdk23
         gradle
+        sqlite
       ];
     };
   };
