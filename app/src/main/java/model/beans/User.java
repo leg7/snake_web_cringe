@@ -1,5 +1,7 @@
 package model.beans;
 
+// On limite la taille des champs directement dans le form html de signup
+// Donc pas besoin de lancer d'exceptions
 public class User {
 	private int id;
 	private String nick;
@@ -17,7 +19,17 @@ public class User {
 		return user;
 	}
 
-	public static User userToInsert(String nick, String email, String password) {
+	public static User userToInsert(String nick, String email, String password) throws BeanException {
+		if (nick == null || nick.equals("")) {
+			throw new BeanException("User cannot have an empty nick");
+		}
+		if (email == null || email.equals("")) {
+			throw new BeanException("User cannot have an empty email");
+		}
+		if (password == null || password.equals("")) {
+			throw new BeanException("User cannot have an empty password");
+		}
+
 		User user = new User();
 		user.nick = nick;
 		user.email = email;
@@ -27,7 +39,7 @@ public class User {
 		return user;
 	}
 
-	public static User userInDB(int id, String nick, String email, String password) {
+	public static User userInDB(int id, String nick, String email, String password) throws BeanException {
 		User user = User.userToInsert(nick, email, password);
 		user.id = id;
 

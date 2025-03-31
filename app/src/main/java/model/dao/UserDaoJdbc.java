@@ -15,7 +15,7 @@ public class UserDaoJdbc extends Dao<User, Integer> {
 	}
 
 	@Override
-	public void create(User user) {
+	public void create(User user) throws DaoException {
 		Connection connexion = null;
 		PreparedStatement preparedStatement = null;
 		ResultSet generatedKeys = null;
@@ -38,6 +38,7 @@ public class UserDaoJdbc extends Dao<User, Integer> {
 			}
 		} catch (SQLException e) {
 			e.printStackTrace();
+			throw new DaoException("Could not insert user into the database");
 		} finally {
 			try {
 				if (generatedKeys != null) {
@@ -56,7 +57,7 @@ public class UserDaoJdbc extends Dao<User, Integer> {
 	}
 
 	@Override
-	public User read(Integer id) {
+	public User read(Integer id) throws DaoException {
 		Connection connexion = null;
 		PreparedStatement preparedStatement = null;
 		ResultSet resultSet = null;
@@ -75,8 +76,9 @@ public class UserDaoJdbc extends Dao<User, Integer> {
 				String password = resultSet.getString("password");
 				user = User.userInDB(userId, nick, email, password);
 			}
-		} catch (SQLException e) {
+		} catch (Exception e) {
 			e.printStackTrace();
+			throw new DaoException("Could not read user from the database");
 		} finally {
 			try {
 				if (resultSet != null) {
@@ -97,7 +99,46 @@ public class UserDaoJdbc extends Dao<User, Integer> {
 	}
 
 	@Override
-	public void update(User user) {
+	public Integer read(User entity) throws DaoException {
+		Connection connexion = null;
+		PreparedStatement preparedStatement = null;
+		ResultSet resultSet = null;
+		Integer id = -1;
+
+		try {
+			connexion = ((DaoFactoryJdbc)daoFactory).getConnection();
+			preparedStatement = connexion.prepareStatement("SELECT id FROM users WHERE nick = ? and password = ?");
+			preparedStatement.setString(1, entity.getNick());
+			preparedStatement.setString(2, entity.getPassword());
+			resultSet = preparedStatement.executeQuery();
+
+			if (resultSet.next()) {
+				id = resultSet.getInt("id");
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+			throw new DaoException("Could not read user from the database");
+		} finally {
+			try {
+				if (resultSet != null) {
+					resultSet.close();
+				}
+				if (preparedStatement != null) {
+					preparedStatement.close();
+				}
+				if (connexion != null) {
+					connexion.close();
+				}
+			} catch (SQLException e) {
+				e.printStackTrace();
+			}
+		}
+
+		return id;
+	}
+
+	@Override
+	public void update(User user) throws DaoException {
 		Connection connexion = null;
 		PreparedStatement preparedStatement = null;
 
@@ -111,6 +152,7 @@ public class UserDaoJdbc extends Dao<User, Integer> {
 			preparedStatement.executeUpdate();
 		} catch (SQLException e) {
 			e.printStackTrace();
+			throw new DaoException("Could not update user in the database");
 		} finally {
 			try {
 				if (preparedStatement != null) {
@@ -126,7 +168,7 @@ public class UserDaoJdbc extends Dao<User, Integer> {
 	}
 
 	@Override
-	public void delete(Integer id) {
+	public void delete(Integer id) throws DaoException {
 		Connection connexion = null;
 		PreparedStatement preparedStatement = null;
 
@@ -137,6 +179,7 @@ public class UserDaoJdbc extends Dao<User, Integer> {
 			preparedStatement.executeUpdate();
 		} catch (SQLException e) {
 			e.printStackTrace();
+			throw new DaoException("Could not delete user from the database");
 		} finally {
 			try {
 				if (preparedStatement != null) {
@@ -152,7 +195,7 @@ public class UserDaoJdbc extends Dao<User, Integer> {
 	}
 
 	@Override
-	public List<User> getAll() {
+	public List<User> getAll() throws DaoException {
 		Connection connexion = null;
 		PreparedStatement preparedStatement = null;
 		ResultSet resultSet = null;
@@ -171,8 +214,9 @@ public class UserDaoJdbc extends Dao<User, Integer> {
 				User user = User.userInDB(userId, nick, email, password);
 				users.add(user);
 			}
-		} catch (SQLException e) {
+		} catch (Exception e) {
 			e.printStackTrace();
+			throw new DaoException("Could not read all users from the database");
 		} finally {
 			try {
 				if (resultSet != null) {

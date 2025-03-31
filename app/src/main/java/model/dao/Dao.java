@@ -10,9 +10,10 @@ public abstract class Dao<T, Id extends Serializable> {
 		daoFactory = f;
 	}
 
-	abstract public void create(T entity);
-	abstract public T read(Id id);
-	abstract public void update(T entity);
-	abstract public void delete(Id id);
-	abstract public List<T> getAll();
+	abstract public void create(T entity) throws DaoException;
+	abstract public T read(Id id) throws DaoException;
+	abstract public Id read(T entity) throws DaoException;
+	abstract public void update(T entity) throws DaoException;
+	abstract public void delete(Id id) throws DaoException;
+	abstract public List<T> getAll() throws DaoException;
 }

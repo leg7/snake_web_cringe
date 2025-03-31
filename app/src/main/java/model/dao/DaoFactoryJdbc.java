@@ -11,6 +11,7 @@ import model.beans.User;
 public class DaoFactoryJdbc implements DaoFactory {
 	private String url;
 	UserDaoJdbc userDao;
+	static private String defaultDB = "jdbc:sqlite:database.db";
 
 	public DaoFactoryJdbc(String url) {
 		this.url = url;
@@ -36,6 +37,10 @@ public class DaoFactoryJdbc implements DaoFactory {
 		}
 
 		userDao = new UserDaoJdbc(this);
+	}
+
+	public DaoFactoryJdbc() {
+		this(defaultDB);
 	}
 
 	public Connection getConnection() throws SQLException {

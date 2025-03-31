@@ -1,38 +1,32 @@
-<%@ page pageEncoding="UTF-8" %>
-<%@ taglib prefix="c" uri="jakarta.tags.core" %>
+<!DOCTYPE html>
 <html>
 <head>
     <title>Signup Page</title>
 </head>
 <body>
-    <h2>Login</h2>
-    <!-- Form that posts to the LoginServlet -->
+    <h2>Signup</h2>
     <form action="signup" method="post">
         <table>
             <tr>
                 <td>Username:</td>
-                <td><input type="text" name="nick" required /></td>
+                <td><input type="text" name="nick" minlength="1" maxlength="30" required /></td>
             </tr>
             <tr>
                 <td>Email:</td>
-                <td><input type="email" name="email" required /></td>
+                <td><input type="email" name="email" minlength="5" maxlength="128" required /></td>
             </tr>
             <tr>
                 <td>Password:</td>
-                <td><input type="password" name="password" required /></td>
+                <td><input type="password" name="password" minlength="8" maxlength="128" required /></td>
             </tr>
             <tr>
-                <td colspan="2"><input type="submit" value="Login" /></td>
+                <td colspan="2"><input type="submit" value="Signup" /></td>
             </tr>
         </table>
     </form>
 
-    <c:if test="${true}">
-    <p>Hello there, ${nick}, your password is ${password}!</p>
-    </c:if>
-
-    <c:if test="${errorCreateTable}">
-    <h1>ERROR</h1>
+    <c:if test="${!empty error}">
+    <p><c:out value="${error}"/></p>
     </c:if>
 
     <c:forEach items="${userList}" var="user" varStatus="status">

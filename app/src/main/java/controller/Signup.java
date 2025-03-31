@@ -5,17 +5,11 @@ import jakarta.servlet.annotation.WebServlet;
 import jakarta.servlet.http.HttpServlet;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
-import jakarta.servlet.http.HttpSession;
-
+import model.beans.BeanException;
 import model.beans.User;
-import model.dao.Dao;
-import model.dao.DaoFactory;
 import model.dao.DaoFactoryJdbc;
-import model.dao.UserDaoJdbc;
 
 import java.io.IOException;
-import java.sql.SQLException;
-import java.sql.Statement;
 
 @WebServlet("/signup")
 public class Signup extends HttpServlet {
@@ -26,30 +20,43 @@ public class Signup extends HttpServlet {
 	}
 
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		doPost(request, response);
+		request.setAttribute("nick", "");
+		request.setAttribute("email", "");
+		request.setAttribute("password", "");
+
+		this.getServletContext().getRequestDispatcher("/WEB-INF/signup.jsp").forward(request, response);
 	}
 
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		var daoFactory = new DaoFactoryJdbc("jdbc:sqlite:database.db");
+		var daoFactory = new DaoFactoryJdbc();
 		var userDao = daoFactory.getUserDao();
 
 		var nick = request.getParameter("nick");
-		request.setAttribute("nick", nick);
-
 		var email = request.getParameter("email");
-
 		var password = request.getParameter("password");
-		request.setAttribute("password", password);
 
-		var user = User.userToInsert(nick, email, password);
-		userDao.create(user);
+		try {
+			var newUser = User.userToInsert(nick, email, password);
+			userDao.create(newUser);
 
-		var userList = userDao.getAll();
-		request.setAttribute("userList", userList);
+			// to debug
+			var userList = userDao.getAll();
+			request.setAttribute("userList", userList);
 
-		// HttpSession session = request.getSession();
+			// For the signup-success message and to know if user is logged in
+			var sesh = request.getSession();
+			sesh.setAttribute("user", newUser);
 
-		this.getServletContext().getRequestDispatcher("/WEB-INF/signup.jsp").forward(request, response);
+			response.sendRedirect("/app/signup-success");
+		} catch (Exception e) {
+			e.printStackTrace();
+			request.setAttribute("error", e.getMessage());
+			request.setAttribute("nick", nick);
+			request.setAttribute("email", email);
+			request.setAttribute("password", password);
+			this.getServletContext().getRequestDispatcher("/WEB-INF/signup.jsp").forward(request, response);
+		}
+
 	}
 }
 
