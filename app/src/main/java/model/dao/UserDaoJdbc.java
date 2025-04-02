@@ -103,7 +103,6 @@ public class UserDaoJdbc extends Dao<User, Integer> {
 		Connection connexion = null;
 		PreparedStatement preparedStatement = null;
 		ResultSet resultSet = null;
-		Integer id = -1;
 
 		try {
 			connexion = ((DaoFactoryJdbc)daoFactory).getConnection();
@@ -113,9 +112,11 @@ public class UserDaoJdbc extends Dao<User, Integer> {
 			resultSet = preparedStatement.executeQuery();
 
 			if (resultSet.next()) {
-				id = resultSet.getInt("id");
+				return resultSet.getInt("id");
+			} else {
+				throw new DaoException("Could not read user " + entity.getNick() + " from the database");
 			}
-		} catch (Exception e) {
+		} catch (SQLException e) {
 			e.printStackTrace();
 			throw new DaoException("Could not read user from the database");
 		} finally {
@@ -133,8 +134,6 @@ public class UserDaoJdbc extends Dao<User, Integer> {
 				e.printStackTrace();
 			}
 		}
-
-		return id;
 	}
 
 	@Override

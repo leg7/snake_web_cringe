@@ -1,13 +1,12 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <title>Logged out</title>
-</head>
+<jsp:include page="modules/head.jsp">
+	<jsp:param name="title" value="Logged out"/>
+</jsp:include>
 <body>
-    <h2>Logout Successful!</h2>
+	<jsp:include page="modules/navbar.jsp"/>
+	<jsp:include page="modules/error.jsp"/>
 
-    <p>
-        <a href="index">Go to the Home Page</a>
-    </p>
+	<h2>Logout Successful!</h2>
 </body>
 </html>

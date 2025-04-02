@@ -1,28 +1,27 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <title>Signup Success</title>
-</head>
+<jsp:include page="modules/head.jsp">
+	<jsp:param name="title" value="Signup success"/>
+</jsp:include>
 <body>
-    <h2>Signup Successful!</h2>
-    <p>Congratulations, your account has been created.</p>
+	<jsp:include page="modules/navbar.jsp"/>
+	<jsp:include page="modules/error.jsp"/>
 
-    <c:if test="${!empty sessionScope.user}">
-        <p>Your account details:</p>
-        <table>
-            <tr>
-                <td>Username:</td>
-                <td><c:out value="${sessionScope.user.nick}" /></td>
-            </tr>
-            <tr>
-                <td>Email:</td>
-                <td><c:out value="${sessionScope.user.email}" /></td>
-            </tr>
-        </table>
-    </c:if>
+	<h2>Signup Successful!</h2>
+	<p>Congratulations, your account has been created.</p>
 
-    <p>
-        <a href="index">Go to the Home Page</a>
-    </p>
+	<c:if test="${!empty sessionScope.user}">
+		<p>Your account details:</p>
+		<table>
+			<tr>
+				<td>Username:</td>
+				<td><c:out value="${sessionScope.user.nick}" /></td>
+			</tr>
+			<tr>
+				<td>Email:</td>
+				<td><c:out value="${sessionScope.user.email}" /></td>
+			</tr>
+		</table>
+	</c:if>
 </body>
 </html>
