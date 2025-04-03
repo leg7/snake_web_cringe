@@ -1,10 +1,3 @@
-Commande pour lancer tomcat: `./tomcat-startup.sh`
-Commande pour arreter tomcat: `./tomcat-shutdown.sh`
+lancer le script `./run.sh` pour lancer l'appli
 
-Avant de deployer: `source setup-env.sh`
-Commande your deployer la webapp dans tomcat: `./gradlew deploy --no-configuration-cache`
-ou depuis le nix shell: `gradle deploy --no-configuration-cache` ou l'alias `gd`
-
-Pour modifier la BD directement: `sqlite database.db`
-
-Page accessible a [app](http://localhost:8080/app/)
+Page accessible a [app](http://localhost:8080/app/index)
