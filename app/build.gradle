@@ -27,12 +27,17 @@ dependencies {
 
     implementation 'com.google.code.gson:gson:2.12.1'
 
-    implementation 'jakarta.platform:jakarta.jakartaee-api:10.0.0'
+    implementation 'jakarta.platform:jakarta.jakartaee-api:11.0.0-RC1'
     implementation 'jakarta.servlet.jsp.jstl:jakarta.servlet.jsp.jstl-api:3.0.2'
+    implementation 'jakarta.servlet:jakarta.servlet-api:6.1.0'
     implementation 'org.glassfish.web:jakarta.servlet.jsp.jstl:3.0.1'
+
     implementation 'org.xerial:sqlite-jdbc:3.49.1.0'
-    implementation 'org.apache.tomcat.embed:tomcat-embed-core:11.0.5' // not used
-	implementation 'org.apache.tomcat.embed:tomcat-embed-jasper:11.0.5'
+
+    implementation 'org.apache.tomcat.embed:tomcat-embed-core:11.0.5'
+	  implementation 'org.apache.tomcat.embed:tomcat-embed-jasper:11.0.5'
+    implementation 'org.apache.tomcat.embed:tomcat-embed-websocket:11.0.5'
+    implementation 'org.apache.tomcat.embed:tomcat-embed-el:11.0.5'
 }
 
 // Apply a specific Java toolchain to ease working on different environments.
@@ -44,7 +49,7 @@ java {
 
 application {
     // Define the main class for the application.
-    mainClass = 'controller.Matou'
+    mainClass = 'Matou'
 }
 
 tasks.named('test') {
