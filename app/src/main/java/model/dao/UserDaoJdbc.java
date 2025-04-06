@@ -74,7 +74,7 @@ public class UserDaoJdbc extends Dao<User, Integer> {
 				String nick = resultSet.getString("nick");
 				String email = resultSet.getString("email");
 				String password = resultSet.getString("password");
-				user = User.userInDB(userId, nick, email, password);
+				user = new User(userId, nick, email, password);
 			}
 		} catch (Exception e) {
 			e.printStackTrace();
@@ -210,7 +210,7 @@ public class UserDaoJdbc extends Dao<User, Integer> {
 				String nick = resultSet.getString("nick");
 				String email = resultSet.getString("email");
 				String password = resultSet.getString("password");
-				User user = User.userInDB(userId, nick, email, password);
+				User user = new User(userId, nick, email, password);
 				users.add(user);
 			}
 		} catch (Exception e) {

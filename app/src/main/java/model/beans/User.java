@@ -8,42 +8,22 @@ public class User {
 	private String email;
 	private String password;
 
-	private User() {
+	public User() {
+		this.id = -1;
+		this.nick = this.email = this.password = "";
 	}
 
-	public static User nullUser() {
-		User user = new User();
-		user.id = 0;
-		user.nick = user.email = user.password = "";
-
-		return user;
+	public User(String nick, String email, String password) {
+		this();
+		this.nick = nick;
+		this.email = email;
+		this.password = password;
+		this.id = -1;
 	}
 
-	public static User userToInsert(String nick, String email, String password) throws BeanException {
-		if (nick == null || nick.equals("")) {
-			throw new BeanException("User cannot have an empty nick");
-		}
-		if (email == null || email.equals("")) {
-			throw new BeanException("User cannot have an empty email");
-		}
-		if (password == null || password.equals("")) {
-			throw new BeanException("User cannot have an empty password");
-		}
-
-		User user = new User();
-		user.nick = nick;
-		user.email = email;
-		user.password = password;
-		user.id = -1;
-
-		return user;
-	}
-
-	public static User userInDB(int id, String nick, String email, String password) throws BeanException {
-		User user = User.userToInsert(nick, email, password);
-		user.id = id;
-
-		return user;
+	public User(int id, String nick, String email, String password) {
+		this(nick, email, password);
+		this.id = id;
 	}
 
 	// Getters and Setters

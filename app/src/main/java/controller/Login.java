@@ -18,7 +18,7 @@ public class Login extends HttpServlet {
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		HttpSession session = request.getSession();
 		if (session.getAttribute("user") != null) {
-			response.sendRedirect("/app/index");
+			response.sendRedirect("/");
 		} else {
 			this.getServletContext().getRequestDispatcher("/WEB-INF/login.jsp").forward(request, response);
 		}
@@ -31,7 +31,6 @@ public class Login extends HttpServlet {
 		var password = request.getParameter("password");
 		var nick = request.getParameter("nick");
 
-		// I would rather make an sql request than do this stupid shit
 		boolean retry = true;
 		try {
 			var users = userDao.getAll();
@@ -39,7 +38,7 @@ public class Login extends HttpServlet {
 				if (user.getPassword().equals(password) && user.getNick().equals(nick)) {
 					HttpSession session = request.getSession();
 					session.setAttribute("user", user);
-					response.sendRedirect("/app/index");
+					response.sendRedirect("/");
 					retry = false;
 				}
 			}

@@ -30,22 +30,5 @@
 			</tr>
 		</table>
 	</form>
-
-	<c:if test="${!empty error}">
-	<p><c:out value="${error}"/></p>
-	</c:if>
-
-	<c:forEach items="${userList}" var="user" varStatus="status">
-		<p>
-			<c:out value="User number ${user.id}:"/>
-			<br>
-			<c:out value="nickname = ${user.nick}"/>
-			<br>
-			<c:out value="email = ${user.email}"/>
-			<br>
-			<c:out value="password = ${user.password}"/>
-			<br>
-		</p>
-	</c:forEach>
 </body>
 </html>

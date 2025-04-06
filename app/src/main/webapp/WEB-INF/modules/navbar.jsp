@@ -1,6 +1,7 @@
 <div class="navbar">
-	<h1><a href="index">shnake.io</a></h1>
+	<h1><a href="/">shnake.io</a></h1>
 	<div>
+		<a href="stalk">Stalk</a>
 		<c:choose>
 		<c:when test="${empty sessionScope.user}">
 		<a href="login">Login</a>

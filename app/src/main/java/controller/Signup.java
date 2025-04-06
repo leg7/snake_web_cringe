@@ -8,6 +8,7 @@ import jakarta.servlet.http.HttpServletResponse;
 import model.beans.BeanException;
 import model.beans.User;
 import model.dao.DaoFactoryJdbc;
+import view.SignupFormHandler;
 
 import java.io.IOException;
 
@@ -28,32 +29,21 @@ public class Signup extends HttpServlet {
 	}
 
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		var daoFactory = new DaoFactoryJdbc();
-		var userDao = daoFactory.getUserDao();
-
-		var nick = request.getParameter("nick");
-		var email = request.getParameter("email");
-		var password = request.getParameter("password");
-
 		try {
-			var newUser = User.userToInsert(nick, email, password);
-			userDao.create(newUser);
+			var newUser = SignupFormHandler.createUser(request);
 
-			// to debug
-			var userList = userDao.getAll();
-			request.setAttribute("userList", userList);
+			var daoFactory = new DaoFactoryJdbc();
+			var userDao = daoFactory.getUserDao();
+			userDao.create(newUser);
 
 			// For the signup-success message and to know if user is logged in
 			var sesh = request.getSession();
 			sesh.setAttribute("user", newUser);
 
-			response.sendRedirect("/app/signup-success");
+			response.sendRedirect("signup-success");
 		} catch (Exception e) {
 			e.printStackTrace();
 			request.setAttribute("error", e.getMessage());
-			request.setAttribute("nick", nick);
-			request.setAttribute("email", email);
-			request.setAttribute("password", password);
 			this.getServletContext().getRequestDispatcher("/WEB-INF/signup.jsp").forward(request, response);
 		}
 
